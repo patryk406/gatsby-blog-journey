@@ -7,11 +7,11 @@ import Footer from "../components/footer/index"
 
 import Layout from "../components/layout"
 import './index.css'
-// import SEO from "../components/seo"
+import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    {/* <SEO title="Home" /> */}
+    <SEO title="Home" />
     <Nav />
     <Featured />
     <Home />
